@@ -7,7 +7,7 @@ require 'PHPTail.php';
  * Initilize a new instance of PHPTail
  * @var PHPTail
  */
-$tail = new PHPTail("C:/Program Files/Apache Software Foundation/Apache2.2/logs/access.log");
+$tail = new PHPTail("../logs/tt-rss-update-daemon.log");
 
 /**
  * We're getting an AJAX call
